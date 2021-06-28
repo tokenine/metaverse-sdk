@@ -127,7 +127,7 @@ export const SUSHI_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.XDAI]: '',
   [ChainId.BKC]: '',
   [ChainId.BSC]: '',
-  [ChainId.BSC_TESTNET]: '',
+  [ChainId.BSC_TESTNET]: '0xD1244D4Cf375d8CDB9c3e94B16A65F3E8F092e79', // token address
   [ChainId.ARBITRUM]: '',
   [ChainId.MOONBASE]: '',
   [ChainId.AVALANCHE]: '',
@@ -153,7 +153,7 @@ export const MASTERCHEF_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.XDAI]: '',
   [ChainId.BKC]: '',
   [ChainId.BSC]: '',
-  [ChainId.BSC_TESTNET]: '',
+  [ChainId.BSC_TESTNET]: '0xe759F268862a5D6E8EfF26bD58B8Fc4921b89A04', // masterchef
   [ChainId.ARBITRUM]: '',
   [ChainId.MOONBASE]: '',
   [ChainId.AVALANCHE]: '',

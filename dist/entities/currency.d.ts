@@ -19,6 +19,7 @@ export declare class Currency {
     static readonly ONE: Currency;
     static readonly OKT: Currency;
     static readonly KUB: Currency;
+    static readonly XTH: Currency;
     static readonly NATIVE: {
         1: Currency;
         3: Currency;
@@ -32,6 +33,7 @@ export declare class Currency {
         100: Currency;
         96: Currency;
         56: Currency;
+        35: Currency;
         97: Currency;
         79377087078960: Currency;
         1287: Currency;

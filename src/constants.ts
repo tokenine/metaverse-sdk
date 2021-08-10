@@ -131,12 +131,8 @@ export const SUSHI_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.XDAI]: '',
   [ChainId.BKC]: '',
   [ChainId.BSC]: '',
-<<<<<<< HEAD
   [ChainId.XCHAIN]: '',
   [ChainId.BSC_TESTNET]: '0xD1244D4Cf375d8CDB9c3e94B16A65F3E8F092e79',
-=======
-  [ChainId.BSC_TESTNET]: '0xD1244D4Cf375d8CDB9c3e94B16A65F3E8F092e79', // token address
->>>>>>> 77acb56551a16d2c0c323574127ef36fb7a58e9b
   [ChainId.ARBITRUM]: '',
   [ChainId.MOONBASE]: '',
   [ChainId.AVALANCHE]: '',
@@ -162,12 +158,8 @@ export const MASTERCHEF_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.XDAI]: '',
   [ChainId.BKC]: '',
   [ChainId.BSC]: '',
-<<<<<<< HEAD
   [ChainId.XCHAIN]: '',
   [ChainId.BSC_TESTNET]: '0xe759F268862a5D6E8EfF26bD58B8Fc4921b89A04',
-=======
-  [ChainId.BSC_TESTNET]: '0xe759F268862a5D6E8EfF26bD58B8Fc4921b89A04', // masterchef
->>>>>>> 77acb56551a16d2c0c323574127ef36fb7a58e9b
   [ChainId.ARBITRUM]: '',
   [ChainId.MOONBASE]: '',
   [ChainId.AVALANCHE]: '',

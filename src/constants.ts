@@ -27,7 +27,8 @@ export enum ChainId {
   HARMONY = 1666600000,
   HARMONY_TESTNET = 1666700000,
   OKEX = 66,
-  OKEX_TESTNET = 65
+  OKEX_TESTNET = 65,
+  META = 17
 }
 
 export enum TradeType {
@@ -88,7 +89,8 @@ export const FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY]: '',
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.OKEX]: '',
-  [ChainId.OKEX_TESTNET]: ''
+  [ChainId.OKEX_TESTNET]: '',
+  [ChainId.META]: ''
 }
 
 export const ROUTER_ADDRESS: { [chainId in ChainId]: string } = {
@@ -115,7 +117,8 @@ export const ROUTER_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY]: '',
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.OKEX]: '',
-  [ChainId.OKEX_TESTNET]: ''
+  [ChainId.OKEX_TESTNET]: '',
+  [ChainId.META]: ''
 }
 
 export const SUSHI_ADDRESS: { [chainId in ChainId]: string } = {
@@ -142,7 +145,8 @@ export const SUSHI_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY]: '',
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.OKEX]: '',
-  [ChainId.OKEX_TESTNET]: ''
+  [ChainId.OKEX_TESTNET]: '',
+  [ChainId.META]: ''
 }
 
 export const MASTERCHEF_ADDRESS: { [chainId in ChainId]: string } = {
@@ -169,7 +173,8 @@ export const MASTERCHEF_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY]: '',
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.OKEX]: '',
-  [ChainId.OKEX_TESTNET]: ''
+  [ChainId.OKEX_TESTNET]: '',
+  [ChainId.META]: ''
 }
 
 export const BAR_ADDRESS: { [chainId in ChainId]: string } = {
@@ -196,7 +201,8 @@ export const BAR_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY]: '',
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.OKEX]: '',
-  [ChainId.OKEX_TESTNET]: ''
+  [ChainId.OKEX_TESTNET]: '',
+  [ChainId.META]: ''
 }
 
 export const MAKER_ADDRESS: { [chainId in ChainId]: string } = {
@@ -223,7 +229,8 @@ export const MAKER_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY]: '',
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.OKEX]: '',
-  [ChainId.OKEX_TESTNET]: ''
+  [ChainId.OKEX_TESTNET]: '',
+  [ChainId.META]: ''
 }
 
 export const TIMELOCK_ADDRESS: { [chainId in ChainId]: string } = {
@@ -250,7 +257,8 @@ export const TIMELOCK_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY]: '',
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.OKEX]: '',
-  [ChainId.OKEX_TESTNET]: ''
+  [ChainId.OKEX_TESTNET]: '',
+  [ChainId.META]: ''
 }
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)

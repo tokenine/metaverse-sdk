@@ -172,5 +172,12 @@ export const WETH = {
     18,
     'WOKT',
     'Wrapped OKExChain'
+  ),
+  [ChainId.META]: new Token(
+    ChainId.META,
+    '0x5462f746B6aD010c4E2B67dfD871767d49d151fA',
+    18,
+    'META',
+    'METAVERSE GOV'
   )
 }

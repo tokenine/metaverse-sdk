@@ -47,6 +47,7 @@ export declare class Currency {
         66: Currency;
         65: Currency;
         17: Currency;
+        25925: Currency;
     };
     /**
      * Constructs an instance of the base class `Currency`. The only instance of the base class `Currency` is `Currency.ETHER`.

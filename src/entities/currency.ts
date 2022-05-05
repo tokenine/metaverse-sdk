@@ -64,7 +64,8 @@ export class Currency {
     [ChainId.HARMONY_TESTNET]: Currency.ONE,
     [ChainId.OKEX]: Currency.OKT,
     [ChainId.OKEX_TESTNET]: Currency.OKT,
-    [ChainId.META]: Currency.META
+    [ChainId.META]: Currency.META,
+    [ChainId.BKC_TESTNET]: Currency.KUB
   }
 
   /**

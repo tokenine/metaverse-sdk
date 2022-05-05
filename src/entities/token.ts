@@ -173,11 +173,6 @@ export const WETH = {
     'WOKT',
     'Wrapped OKExChain'
   ),
-  [ChainId.META]: new Token(
-    ChainId.META,
-    '0x5462f746B6aD010c4E2B67dfD871767d49d151fA',
-    18,
-    'META',
-    'METAVERSE GOV'
-  )
+  [ChainId.META]: new Token(ChainId.META, '0x5462f746B6aD010c4E2B67dfD871767d49d151fA', 18, 'META', 'METAVERSE GOV'),
+  [ChainId.BKC_TESTNET]: new Token(ChainId.META, '0x67eBD850304c70d983B2d1b93ea79c7CD6c3F6b5', 18, 'KUB', 'BITKUB COIN')
 }

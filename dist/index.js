@@ -2,7 +2,7 @@
 'use strict'
 
 if (process.env.NODE_ENV === 'production') {
-  module.exports = require('./dfy-sdk.cjs.production.min.js')
+  module.exports = require('./metaverse-sdk.cjs.production.min.js')
 } else {
-  module.exports = require('./dfy-sdk.cjs.development.js')
+  module.exports = require('./metaverse-sdk.cjs.development.js')
 }
